@@ -18,4 +18,6 @@ L'application est divisé en 3 fichiers :
 * `interface.py` : interface graphique de l'application
 * `main.py` : fonction principale de l'application
 
+[fenetre principale](../images/fenetre1.png)
+
 L'application se lance depuis le fichier `main.py`. Elle est composé d'une fenêtre principale depuis laquelle nous pouvons avoir accès à deux fonctionnalité.
