@@ -12,17 +12,17 @@ Après discussion avec les collaborateurs, Breizhibus ne souhaite plus d'afficha
 
 ## Fonctionnement de l'appli
 
-L'application est divisé en 3 fichiers :
+L'application est divisée en 3 fichiers :
 
 * `connecteur.py` : connexion et manipulation de la base de donnée
 * `interface.py` : interface graphique de l'application
 * `main.py` : fonction principale de l'application
 
-L'application se lance depuis le fichier `main.py`. Elle est composé d'une fenêtre principale depuis laquelle nous pouvons avoir accès à deux fonctionnalités.
+L'application se lance depuis le fichier `main.py`. Elle est composée d'une fenêtre principale depuis laquelle nous pouvons avoir accès à deux fonctionnalités.
 
 ![fenetre principale](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre1.PNG)
 
-La première fonctionnalité permet de visualiser les différents arrêts d'une ligne en particulier, ainsi que de voir les différents bus qui déserve la ligne.
+La première fonctionnalité permet de visualiser les différents arrêts d'une ligne en particulier, ainsi que de voir les différents bus qui déservent la ligne.
 
 ![fenetre secondaire](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre2.PNG)
 
@@ -31,4 +31,15 @@ La deuxième fonctionnalité permet, quant à elle, de gérer les différents bu
 ![fenetre tertiaire](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre3.PNG)
 
 
+## Choix techniques
 
+L'applicationa est codé en objet. En effet cette méthode permet de mieux structurer celui-ci avec un minimum de répétitions, ainsi qu'une plus grande maintenabilité. 
+
+Pour l'interface graphique, j'ai utilisé le GUI standart de Python : Tkinter. Mon choix s'est porté sur Tkinter car il y a beaucoup de documentations disponible sur le net. Cependant, avec un peu de pratique, le passage à un nouveau GUI, plus simple design est envisagé.
+
+## Difficultés rencontrées 
+
+Lors de ce projet, la principale difficultée rencontrée fut l'inteface graphique. Et plus particulièrement, les événements lors de l'appui d'un bouton, ainsi que le positionnement des différents widgets. Afin de surpasser celles-ci, il y a eu un part importante de veille et de recherche. Notamment sur le forum qui n'est plus à présenter : https://stackoverflow.com . 
+Les autres projets réalisés en parrallèle de celui-ci m'ont également permis d'accroître ma compréhension et ma connaissance de Tkinter. 
+
+Un [lien](https://stackoverflow.com/questions/7546050/switch-between-two-frames-in-tkinter) particulièrement utile afin de switcher sur plusieurs pages dans une même fenêtre. 
