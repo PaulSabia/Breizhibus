@@ -18,6 +18,17 @@ L'application est divisé en 3 fichiers :
 * `interface.py` : interface graphique de l'application
 * `main.py` : fonction principale de l'application
 
+L'application se lance depuis le fichier `main.py`. Elle est composé d'une fenêtre principale depuis laquelle nous pouvons avoir accès à deux fonctionnalités.
+
 ![fenetre principale](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre1.PNG)
 
-L'application se lance depuis le fichier `main.py`. Elle est composé d'une fenêtre principale depuis laquelle nous pouvons avoir accès à deux fonctionnalité.
+La première fonctionnalité permet de visualiser les différents arrêts d'une ligne en particulier, ainsi que de voir les différents bus qui déserve la ligne.
+
+![fenetre secondaire](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre2.PNG)
+
+La deuxième fonctionnalité permet, quant à elle, de gérer les différents bus. Ajouter de nouveau bus, les attribuer à une ligne, ainsi que de pouvoir les modifier ou supprimer.
+
+![fenetre tertiaire](https://github.com/PaulSabia/Breizhibus/blob/main/images/fenetre3.PNG)
+
+
+
